@@ -1,11 +1,6 @@
 <?php
-$students = array(
-    "Alice" => 14,
-    "Bob" => 9,
-    "Eva" => 18,
-);
-print_r(array_keys);
-foreach ($students as value) {
+foreach ($students as $key => $value) {
     if ($value >= 10) {
+        echo $key,"\n";
     }
 }
